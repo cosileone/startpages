@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+@font-face {
+	font-family: "Lobster";
+	src: url("../fonts/Lobster 1.4.otf");
+}
+
+body { background-color: rgb(188,149,177); }
+#title {
+	background-color: rgb(208,169,197);
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	box-shadow: 0 0.1em 3em rgb(168,129,157);
+}
+
+.grid-row {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.grid-cell {
+	border: 1px solid rgb(208,169,197);
+	width: 10em;
+	height: 10em;
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+	opacity: 1;
+}
+
+.grid-cell:hover{
+	opacity: 0.7;
+}
+
+.facebook {
+	background-image: url('../imgs/facebook.jpg');
+	background-size: 28em 14em;
+	background-position: -2em;
+}
+.reddit {
+	background-image: url('../imgs/reddit.png');
+	background-color: transparent;
+}
+.imgur {
+	background-image: url('../imgs/imgur.jpg');
+}
+.pocket {
+	background-image: url('../imgs/pocket.png');
+}
+.imgfave {
+	background-image: url('../imgs/imgfave.png');
+}
+.yelp {
+	background-image: url('../imgs/yelp.png');
+	background-size: 150%;
+}
+.bankofamerica {
+	background-image: url('../imgs/bankofamerica.jpg');
+	background-size: cover;
+}
+.wordpress {
+	background-image: url('../imgs/wordpress.png');
+	background-size: 75%;
+}
+
+.montserrat { font-family: "Montserrat"; }
+.lobster { font-family: "Lobster"; }
+.faded { opacity: 0.65; }
+.white { color: white }
+.bigger-text { font-size: 9em; }
+
+/* Search Box */
+.box{
+  margin: 0px auto;
+  width: 300px;
+  height: 50px;
+}
+
+.search-container{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.search-container input#search{
+  width: 300px;
+  height: 30px;
+  background: rgb(208,169,197);
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: white;
+  padding-left: 45px;
+  border-radius: 3px;
+}
+
+.search-container input#search::-webkit-input-placeholder {
+   color: white;
+} /* End Search Box */
