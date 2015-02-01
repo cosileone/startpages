@@ -94,6 +94,7 @@ body { background-color: rgb(188,149,177); }
 
 #search-box::-webkit-input-placeholder {
 	color: white;
+	opacity: 0.6;
 
 }
 
